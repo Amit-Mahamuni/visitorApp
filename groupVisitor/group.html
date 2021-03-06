@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>group test</title>    
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> -->
+
+</head>
+<body>
+
+    <!-- navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Visitor |</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                  <a class="nav-link" href="../addVisitor/addvisitor.html">Add Visitor </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../visitorList/visitorList.html">Visitor List</a>
+                </li>  
+                <li class="nav-item ">
+                  <a class="nav-link" href="../workList/workList.html">Work List</a>
+               </li>  
+               <li class="nav-item">
+                  <a class="nav-link" href="../karykarta/karykarta.html">Karykarta List </a>
+               </li>  
+               <li class="nav-item active">
+                <a class="nav-link" href="../worklist_test/workList.html">Work List <span class="sr-only">(current)</span></a>
+             </li>             
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Account</a>
+                </li>
+            </ul>
+            </div>
+        </div>        
+    </nav>
+
+
+
+    <div class="container">
+        <h4>Group Test</h4>
+        <div  class="row">
+            <div class="col-12 border border-dark p-4">
+                <form id="group_from">
+                    <span id="error"></span>
+                    <table class="table table-bordered" id="group_table">
+                        <thead>
+                            <tr>
+                                <th width="40%">Name</th>
+                                <th width="40%">Phone</th>
+                                <th width="20%"><button type="button" name="add" class="btn btn-primary btn-sm add"><i class="fa fa-plus" aria-hidden="true"></i> Add</button></th>
+                            </tr>
+                        </thead>
+                    </table>
+                    <!-- <div align="center">
+                        <input type="submit" name="submit" class="btn btn-info" value="Insert" />
+                    </div> -->
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <script src="../js/bootstrap.js"></script> 
+    <script src="groupVisitor.js"></script> 
+    
+</body>
+</html>
